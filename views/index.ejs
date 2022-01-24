@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>Badge readers information</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <!-- <th scope="col">#</th> -->
+      <th scope="col">Name</th>
+      <th scope="col">Last update</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% listResults.forEach(function(el) { %>
+    <tr>
+      <!-- <th scope="row"><%= el.id %></th> -->
+      <td><%= el.name %></td>
+      <td><%= el.lastupdate %></td>
+    </tr>
+  <% }) %>
+  </tbody>
+</table>
+<h5>Current datetime: <%= currentdatetime %></h5>

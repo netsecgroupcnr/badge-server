@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-basic-auth": "^1.2.1",
+    "mysql": "^2.18.1"
+  },
+  "name": "badge-server",
+  "version": "1.0.0",
+  "description": "Server software by CNR-IEIIT",
+  "main": "program.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node program.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netsecgroupcnr/badge-server.git"
+  },
+  "author": "Enrico Cambiaso",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/netsecgroupcnr/badge-server/issues"
+  },
+  "homepage": "https://github.com/netsecgroupcnr/badge-server#readme"
+}
